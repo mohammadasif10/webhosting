@@ -1,6 +1,6 @@
 import streamlit as st
 import functions
-#for webhosts to install all pacakages necessary to run your website, type pip freeze > requirements.txt to get a file detailing all the specifications needed to run your file. command is just pip freeze and you can see what it outputs in the shell. this is taking the information from there and piping it to a new file. In this case does not save visibly but you can acess it from the shell
+#for webhosts to install all pacakages necessary to run your website, type pip freeze > requirements.txt to get a file detailing all the specifications needed to run your file. command is just pip freeze and you can see what it outputs in the shell. this is taking the information from there and piping it to a new file. In this case does not save visibly but you can acess it from the shell. shows up on github too
 todoList = functions.gettodo()#defeine it up here so method can access it
 
 def addTodo():
